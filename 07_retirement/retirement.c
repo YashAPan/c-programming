@@ -12,7 +12,7 @@ typedef struct _retire_info retire_info;
 
 void print_info(int months, double balance){
   printf("Age %3d month %2d you have $%.2f\n", months/12, months % 12, balance);
-
+  return;
 }
 
   double balance_calc(double balance, retire_info status){
@@ -41,7 +41,7 @@ void retirement(int startAge, //in months
     balance = balance_calc(balance, retired);
     total_months++ ;
   }
-
+  return;
 }
 
 int main(){
@@ -57,4 +57,5 @@ int main(){
 
   retirement(327, 21345, working, retired);
 
+  return 0;
 }
