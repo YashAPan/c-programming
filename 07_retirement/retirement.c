@@ -11,7 +11,7 @@ typedef struct _retire_info retire_info;
 
 
 void print_info(int months, double balance){
-  printf("Age %3d month %2d you have $%.21f\n", months/12, months % 12, balance);
+  printf("Age %3d month %2d you have $%.2f\n", months/12, months % 12, balance);
 
 }
 
