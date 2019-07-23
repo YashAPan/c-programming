@@ -1,0 +1,23 @@
+Grading at Tue Jul 23 06:14:20 UTC 2019
+Attempting to compile rectangle.c
+rectangle.c:25:11: error: expected ‘;’, identifier or ‘(’ before ‘struct’
+   typedef struct rect_t rectangle;
+           ^
+rectangle.c:27:1: error: unknown type name ‘rectangle’
+ rectangle canonicalize(rectangle r) {
+ ^
+rectangle.c:27:24: error: expected declaration specifiers or ‘...’ before ‘rectangle’
+ rectangle canonicalize(rectangle r) {
+                        ^
+rectangle.c:39:1: error: unknown type name ‘rectangle’
+ rectangle intersection(rectangle r1, rectangle r2) {
+ ^
+rectangle.c:39:24: error: expected declaration specifiers or ‘...’ before ‘rectangle’
+ rectangle intersection(rectangle r1, rectangle r2) {
+                        ^
+rectangle.c:39:38: error: expected declaration specifiers or ‘...’ before ‘rectangle’
+ rectangle intersection(rectangle r1, rectangle r2) {
+                                      ^
+The code did not compile!
+
+Overall Grade: F
